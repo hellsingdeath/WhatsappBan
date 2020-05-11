@@ -8,4 +8,5 @@ clear
 
 neofetch
 
-PS1="termux-hack "
+PS1='\033[1;91mroot@termux[\033[1;93m\W\033[1;91m]:# \033[1;92m'
+
