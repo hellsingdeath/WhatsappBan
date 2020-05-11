@@ -1,9 +1,7 @@
--command_not_found_handler() {
-    /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
-}
+if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
+	command_not_found_handle() {
+		/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+	}
+fi
 
-cd /data/data/com.termux/files/usr/etc/
-python tools.py
-cd ~
-cowsay -f eyes "para defenderse hay que saber atacar" | lolcat
-toilet -f big "TERMUX" -F gay | lolcat
+PS1='\$ '
