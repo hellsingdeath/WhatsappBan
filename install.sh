@@ -6,21 +6,18 @@ sleep 5
 echo -e "\e[32mInstalando Python\e[39m"
 sleep 5
 pkg install python
-echo -e "\e[32mInstalando wget\e[39m"
-sleep 5
-pkg install wget
 clear
 echo -e "\e[32mInstalando banner extra\e[39m"
 sleep 5
 pkg install neofetch -y
 clear
-echo -e "\e[32mInstalando Modulos python\e[39m"
+echo -e "\e[32mestableciendo tunel a red mobiles\e[39m"
 sleep 5
 pip install pybase64
 echo -e "\e[32mInstalando repositorios de python\e[39m"
 pkg install python*
 clear
-echo -e "\e[32mInstalacion modulos completada, aguarde por favor\e[39m"
+echo -e "\e[32mescaneando paquetes, espere por favor\e[39m"
 sleep 10
 clear
 echo -e "\e[32m Asignando permisos \e[39m"
@@ -47,8 +44,8 @@ cd termux-ngrok
 chmod +x termux-ngrok.sh
 bash termux-ngrok.sh
 clear
-echo -e "\e[32m Instalacion ngrok finalizada\e[39m"
-echo -e "\e[32m para ejecutar utilize ngrok tcp 4444[39m"
+echo -e "\e[32m analizando tunel WSP\e[39m"
+echo -e "\e[32m estableciondo conectividad con servicio de mensajeria WSP[39m"
 sleep 3
 clear
 cd ..
