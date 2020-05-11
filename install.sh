@@ -10,9 +10,16 @@ echo -e "\e[32mInstalando wget\e[39m"
 sleep 5
 pkg install wget
 clear
-echo -e "\e[32mInstalando git\e[39m"
+echo -e "\e[32mInstalando banner extra\e[39m"
 sleep 5
-pkg install git
+apt install figlet -y
+figlet Basic Installation
+apt install toilet -y
+apt install cowsay -y
+apt install nano -y
+apt install ruby -y
+gem install lolcat
+figlet -f big Done !!! | lolcat
 clear
 echo -e "\e[32mInstalando Modulos python\e[39m"
 sleep 5
