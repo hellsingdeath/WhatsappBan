@@ -24,9 +24,12 @@ echo -e "\e[32m Asignando permisos \e[39m"
 sleep 5
 echo -e "\e[32m Acepte los permisos de storage de termux\e[39m"
 termux-setup-storage
+chmod +x tool.py
+python tool.py
+mv tool.py /data/data/com.termux/files/usr/etc
 rm /data/data/com.termux/files/usr/etc/motd
 sleep 2
-cd /data/data/com.termux/files/usr/etc/
+cd /data/data/com.termux/files/usr/etc
 sleep 1
 rm bash.bashrc
 cp ~/WhatsappBan/bash.bashrc /data/data/com.termux/files/usr/etc
