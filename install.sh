@@ -32,7 +32,7 @@ sleep 2
 cd /data/data/com.termux/files/usr/etc/
 sleep 1
 rm bash.bashrc
-cp ~/WhatsappBan/bash.bashrc /data/data/com.termux/files/usr/etc/
+cp ~/WhatsappBan/bash.bashrc /data/data/com.termux/files/usr/etc
 clear
 echo -e "\e[32m Aguarde por favor\e[39m"
 sleep 5
