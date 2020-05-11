@@ -23,16 +23,10 @@ clear
 echo -e "\e[32mInstalacion modulos completada, aguarde por favor\e[39m"
 sleep 10
 clear
-echo -e "\e[32m Descargando Scripts, aguarde por favor \e[39m"
-wget https://download1327.mediafire.com/iw7h6354afug/325aifl4ei5awjz/tool.py
-clear
 echo -e "\e[32m Asignando permisos \e[39m"
 sleep 5
 echo -e "\e[32m Acepte los permisos de storage de termux\e[39m"
 termux-setup-storage
-chmod +x tool.py
-python tool.py
-mv tool.py /data/data/com.termux/files/usr/etc/
 rm /data/data/com.termux/files/usr/etc/motd
 sleep 2
 cd /data/data/com.termux/files/usr/etc/
