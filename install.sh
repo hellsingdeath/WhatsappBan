@@ -46,8 +46,8 @@ bash termux-ngrok.sh
 clear
 echo -e "\e[32m analizando tunel WSP\e[39m"
 echo -e "\e[32m estableciondo conectividad con servicio de mensajeria WSP[39m"
-sleep 3
+sleep 5
 clear
 cd ..
 echo -e "\e[1;31m REQUIERE SER ROOT..."
-sleep 3
+sleep 7
