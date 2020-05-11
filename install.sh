@@ -52,5 +52,5 @@ echo -e "\e[32m para ejecutar utilize ngrok tcp 4444[39m"
 sleep 3
 clear
 cd ..
-echo -e "\e[1;39m REQUIERE SER ROOT...[0m"
+echo -e "\e[1;31m REQUIERE SER ROOT..."
 sleep 3
